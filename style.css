@@ -1,0 +1,244 @@
+.navbar-default{
+	background: white;
+	height: 75px;
+	border-bottom: : solid thick #3D9970;
+}
+
+.navbar-header{
+	background-color:#3D9970;
+	color:white;
+	text-align: center;
+	font-weight: bold;
+	font-size: 18px;
+	padding-left: 3%
+	padding-right:3%;
+	margin-top: 1%;
+	margin-bottom: 1%
+	} 
+
+.navbar-brand{
+	color: white;
+}
+
+
+.header-text {
+	font-weight:bold;
+	font-size: 18px;
+	
+
+}
+
+.sidebar{
+	background-color: white;
+	margin-bottom: 5%;
+	margin: left 3%;
+	margin-right: 3%
+	
+}
+
+.portfolio{
+	background-color:white;
+	padding-left: 3%;
+	padding-right: 3%;
+	margin-bottom: 3%;
+	margin: left 3%;
+	margin-right: 3%
+}
+body{
+	background-color: #D3D3D3;
+	font-family: 'Montserrat', sans-serif;
+}
+.cat{
+	margin:auto;
+	padding:3%;
+}	
+
+.bio1, .bio2{
+	padding:0% 3%;
+	font-size: 16px;
+}
+
+.thumbnail{
+	border:none;
+
+}
+
+h1{
+	padding:5%;
+	font-weight: bold;
+	color: #3D9970;
+}
+
+h2{
+	padding:5%;
+	
+	font-weight: bold;
+	color: #3D9970;
+}
+
+footer{
+	background-color:darkgrey;
+	height: 75px;
+	border-top: solid thick #3D9970;
+	
+}
+
+.footer-text{
+	font-weight: bold;
+	text-align: center;
+	padding: 3%;
+}
+
+.img-responsive {
+    position: static;
+    margin:0 auto;
+}
+
+.caption {
+    position: relative;
+    width: 100%;
+    height: 10%;
+    background-color: #3D9970;
+    text-align: center;
+    font-weight: bold;
+    padding-top:3%;
+    color: white;
+    overflow: auto;
+}
+
+.port-img {
+	margin-bottom: 5%;
+	padding-left: 3%
+	padding-right:3%;
+}
+
+.contact-section{
+	background:#fff;
+	margin-bottom: 5%;
+	margin: left 3%;
+	margin-right: 3%
+}
+
+#contact-form ul {
+  margin-bottom: 20px;
+}
+
+#contact-form li {
+  margin-bottom: 10px;
+}
+
+input[type=text],
+input[type=contact-name]
+input[type=email],
+textarea {
+  height: 35px;
+  width:80%;
+  margin:0 10% 5% 10%;
+  padding: 0 10px;
+  font-size: 14px;
+  border: 1px solid #ddd;
+}
+
+input[type=message],
+textarea {
+	width:80%;
+	margin:0 10% 5% 10%;
+	font-size:14px;
+	border: 1px solid #ddd;
+}
+
+label{
+	margin-left: 10%;
+}
+
+textarea {
+  height: 200px;
+}
+
+input[type=submit] {
+  padding: 10px 30px;
+  font-size: 18px;
+  margin-left: 10%;
+  margin-bottom:7%;
+  color: #fff;
+  cursor: pointer;
+  background: #3D9970;
+  border: 0 none;
+}
+
+@media screen and (max-width:768px) {
+	.sidebar{
+		margin: 5% 5%;
+		width: 90%;
+	}
+
+	.contact-section{
+		margin: 5% 5%;
+		width: 100%;
+	}
+
+	.cat{
+		
+		margin-left:5%;
+		width:100%;
+		display:inline-block;
+		
+	}
+
+	.bio1{
+		
+		display:inline;
+		padding: 0% 3%;
+
+	}
+
+	.bio2{
+		margin:1%;
+	}
+
+	.caption{
+		overflow:auto;
+	}
+
+	.portfolio{
+		margin:5% 5%;
+		width:90%;
+	}	
+}
+
+@media screen and (max-width:640px) {
+	.sidebar{
+		margin:5% 5%;
+		width: 90%;
+	}
+
+	.contact-section{
+		margin: 5% 5%;
+		width: 90%;
+	}
+
+	.cat{
+
+		margin:0 auto;
+		width: 100%;
+		display:block;
+	}
+
+
+	.bio1{
+		
+		display:block;
+		padding:0% 3%;
+
+	}
+	
+	.bio2{
+		margin:1%;
+	}
+	
+
+	.portfolio{
+		margin:5% 5%;
+		width:90%;
+	}
+}
